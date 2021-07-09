@@ -1,6 +1,10 @@
-# Notes
+# Complete Javascript Course
 
-## Shorcuts
+I'm working through this course to review fundamentals and develop deeper understanding of the more complicated parts of Javascript.
+
+### Notes
+
+#### Shorcuts
 
 **Browser**
 
@@ -9,5 +13,3 @@
 **VSCode**
 
 - Control B = hide/show the sidebar
-
-## Lectures
