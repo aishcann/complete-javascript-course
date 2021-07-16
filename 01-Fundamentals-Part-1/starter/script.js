@@ -59,3 +59,54 @@ console.log(typeof true);
 console.log(typeof javascriptIsFun);
 console.log(typeof 23);
 console.log(typeof 'Jonas')
+
+//changing the value of a variable
+// you don't need the 'let' keyword to do this, only the varialbe name
+// this only works with let and var, not with const
+javascriptIsFun = 'YES!'
+console.log(typeof javascriptIsFun)
+
+//because I have defined a variable but have not assigned it a value, it will console.log as a value of undefined and be a data type of undefined
+
+let year
+console.log(year)
+console.log(typeof year);
+
+//assigned a value to 'year'
+year = 1991
+console.log(year);
+
+console.log(null)
+
+// LET, CONST, VAR
+
+//var = the old way to declare variables
+
+//let & const = introduced in ES6 and are new ways of declaring variables
+
+//let = we use let variables to declare variables that will change later
+
+let age = 30
+age = 31
+
+//const = we use const to declare variables that will not change later and values will remain constant
+
+const birthYear = 1991
+// attempting to change the birthYear (like below) will result in 'uncaught TypeError'
+// birthYear = 1990
+// attempting to declare a const variable with no initial value will also result in an error
+// const job
+
+//when to use const, let, or var?
+// var is out of style so don't use it
+// let ONLY when you are SURE you have to change a variable in the future
+// const majority of the time because changing variables create a higher possibility of introducing bugs into the code
+
+//BASIC OPERATORS
+
+//subtraction
+const ageJonas = 2037 - 1991
+const ageSarah = 2037 - 2018
+console.log(ageJonas, ageSarah);
+// also note the descriptive, specific variable names!
+console.log(ageJonas * 2, ageJonas / 10, 2 **3)
